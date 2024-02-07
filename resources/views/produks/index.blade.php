@@ -23,7 +23,8 @@
             <th>No</th>
             <th>nama</th>
             <th>kategori</th>
-            <th>harga</th>
+            <th>harga jual</th>
+            <th>harga beli</th>
             <th width="280px">Action</th>
         </tr>
         @foreach ($produks as $produk)
@@ -32,6 +33,7 @@
             <td>{{ $produk->nama }}</td>
             <td>{{ $produk->kategori }}</td>
             <td>{{ $produk->harga_jual }}</td>
+            <td>{{ $produk->harga_beli }}</td>
             <td>
                 <form action="{{ route('produks.destroy',$produk->id) }}" method="POST">
 

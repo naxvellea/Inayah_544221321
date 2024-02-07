@@ -40,6 +40,7 @@ class ProdukController extends Controller
             'nama' => 'required',
             'kategori' => 'required',
             'harga_jual' => 'required',
+            'harga_beli' => 'required',
         ]);
 
         $input = $request->all();
@@ -70,7 +71,8 @@ class ProdukController extends Controller
         $request->validate([
             'nama' => 'required',
             'kategori' => 'required',
-            'harga_jual' => 'required'
+            'harga_jual' => 'required',
+            'harga_beli' => 'required'
         ]);
 
         $input = $request->all();

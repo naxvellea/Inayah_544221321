@@ -41,8 +41,14 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>harga:</strong>
+                <strong>harga jual:</strong>
                 <textarea class="form-control" name="harga_jual" placeholder="harga"></textarea>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>harga beli:</strong>
+                <textarea class="form-control" name="harga_beli" placeholder="harga"></textarea>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
